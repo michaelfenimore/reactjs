@@ -1,0 +1,6 @@
+# ******* FOLDERS *******
+node_modules/
+
+
+# ******* MAC FILES *******
+.DS_Store

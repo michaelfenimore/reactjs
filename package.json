@@ -1,0 +1,19 @@
+{
+  "name": "reactproject",
+  "version": "1.0.0",
+  "description": "Practicing with react and webpack",
+  "main": "index.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/webpack -d --watch",
+    "prod": "./node_modules/.bin/webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michaelfenimore"
+  },
+  "author": "Michael Fenimore",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^2.6.0"
+  }
+}
