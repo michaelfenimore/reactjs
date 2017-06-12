@@ -13,12 +13,34 @@ class Title extends React.Component {
 	}
 }
 
+class Form extends React.Component {
+	render() {
+		return (
+			<div class="todo-form">
+				<input type="text" name="todo-item" size={25} maxLength={50} />
+				<button type="button" onClick="">Add To List</button>
+			</div>
+		)
+	}
+}
+
+class ToDoList extends React.Component {
+	render() {
+		return (
+			<ul>
+				<li></li>
+			</ul>
+		)
+	}
+}
+
 class Todo extends React.Component {
 	render() {
 		return (
 			<div class="col-md-16">
 				<Title />
-				<input type="text" name="todo-item" size={25} maxLength={50} />
+				<Form />
+				<ToDoList />
 			</div>
 		)
 	}
