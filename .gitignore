@@ -4,3 +4,9 @@ node_modules/
 
 # ******* MAC FILES *******
 .DS_Store
+
+
+# ******* APPS *******
+# Sublime Text files
+*.sublime-project
+*.sublime-workspace
