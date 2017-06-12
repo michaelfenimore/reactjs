@@ -18,7 +18,7 @@ class Todo extends React.Component {
 		return (
 			<div class="col-md-16">
 				<Title />
-				<input type="text" name="todo-item" />
+				<input type="text" name="todo-item" size={25} maxLength={50} />
 			</div>
 		)
 	}
